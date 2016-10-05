@@ -2,6 +2,10 @@
 
 ## Getting Started
 
+For API documentation, please visit:
+
+  [ByAllAccount's API Documentation]: https://www.byallaccounts.net/manuals/DataConnect/DataConnect_V4_Ultra_User_Guide.PDF
+
 After you have cloned this repo, run this setup script to set up your machine
 with the necessary dependencies to run and test this app:
 

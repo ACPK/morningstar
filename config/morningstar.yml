@@ -1,0 +1,14 @@
+default: &default
+  base_url: ENV.fetch("MORNINGSTAR_BASE_URL")
+  username: ENV.fetch("MORNINGSTAR_USERNAME")
+  password: ENV.fetch("MORNINGSTAR_PASSWORD")
+  register_users: true
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+
+production:
+  <<: *default
